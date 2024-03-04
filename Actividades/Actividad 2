@@ -1,0 +1,6 @@
+print("Actividad 2: Diseño de algoritmos en Python")
+nombre = input("Por favor, introduce tu nombre: ")
+if nombre.lower() in ["ana", "juan", "pedro"]:
+    print("Lo siento, no puedo saludar a Ana, Juan o Pedro.")
+else:
+    print("¡Hola, " + nombre + "! Bienvenido/a.")
